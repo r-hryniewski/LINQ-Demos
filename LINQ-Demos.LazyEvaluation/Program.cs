@@ -14,7 +14,9 @@ namespace LINQ_Demos
 
             //FuncExpression.Run();
 
-            Casting.Run();
+            //Casting.Run();
+
+            AsParallelGotcha.Run();
 
             ReadKey();
         }
