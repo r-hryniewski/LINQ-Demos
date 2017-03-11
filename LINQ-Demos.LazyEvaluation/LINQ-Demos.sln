@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ-Demos", "LINQ-Demos.csproj", "{1FC10C05-604B-4344-BEB2-287C8C1C21D4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ-BenchmarkDemos", "..\LINQ-BenchmarkDemos\LINQ-BenchmarkDemos.csproj", "{65A0915B-20F9-4A11-B677-CE0F9B7853F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ-EFDemo", "..\LINQ-EFDemo\LINQ-EFDemo.csproj", "{0E565FFD-D0C6-405D-A3D2-95AC0BEB65D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{65A0915B-20F9-4A11-B677-CE0F9B7853F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65A0915B-20F9-4A11-B677-CE0F9B7853F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65A0915B-20F9-4A11-B677-CE0F9B7853F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E565FFD-D0C6-405D-A3D2-95AC0BEB65D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E565FFD-D0C6-405D-A3D2-95AC0BEB65D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E565FFD-D0C6-405D-A3D2-95AC0BEB65D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E565FFD-D0C6-405D-A3D2-95AC0BEB65D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
