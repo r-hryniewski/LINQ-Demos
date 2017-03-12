@@ -18,20 +18,22 @@ namespace LINQ_Demos
         {
 
             var query = 
-                //Items
-                Item.GetItemsFromExternalSource(5)
+                Items
+                //Item.GetItemsFromExternalSource(5)
                 .Select(i => i.Process())
                 .Where(i => i.Id > 2)
                 ;
 
-            query.ToList();
+            //query.FirstOrDefault();
+
+            //query.ToList();
             //Items.Add(new Item(5));
 
             //WriteLine($"query Count: {query.Count()}");
 
             foreach(var item in query)
             {
-                WriteLine(item.ToString());
+              WriteLine(item.ToString());
             }
         }
     }

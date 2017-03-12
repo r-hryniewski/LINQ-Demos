@@ -8,7 +8,7 @@ namespace LINQ_Demos
         {
             //BooleanLazyEvaluation.Run();
 
-            //LINQDeferredExecution.Run();
+            LINQDeferredExecution.Run();
 
             //Yield.Run();
 
@@ -16,7 +16,7 @@ namespace LINQ_Demos
 
             //Casting.Run();
 
-            AsParallelGotcha.Run();
+            //AsParallelGotcha.Run();
 
             ReadKey();
         }
